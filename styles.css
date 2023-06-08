@@ -5,6 +5,14 @@
     background-color: rgb(5, 5, 146);
     color: bisque;
     border-bottom: 4px solid #fdb347;
+   }
+
+.head{
+    position: fixed;
+    width: 100%;
+    display: block;
+    top: 0;
+    overflow: hidden;
 }
 
 .footer {
@@ -12,7 +20,8 @@
     background-color: rgb(5, 5, 146);
     color: rgb(134, 226, 13);
     border-bottom: 4px solid #fdb347;
-    font-size: 25px;
+    font-size: 16px;
+    padding-top: 2px;
 }
 
 
@@ -21,6 +30,9 @@ body {
     font-family:'Times New Roman', Times, serif;
     height: 100vh;
     font-size: 1em;    
+    background-image:url(/assets/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
 }
 
 .gallery img{
@@ -29,7 +41,7 @@ body {
     height: 150px;
     max-height: auto;
     object-fit:cover;
-    border-radius: 5px;
+    border-radius: 15px;
     gap: 16px;
     padding: 5px;
 }
@@ -39,9 +51,18 @@ body {
     flex-direction: row; 
     justify-content:center;
     align-items: center;
-    width: 95vw;
-    background-color: rgba(56, 56, 119, 0.425);
-    margin: auto;    
+    width: 85vw;
+    background-color: rgba(128, 128, 128, 0.658);
+    margin: auto;  
+    margin-top: 170px;
+    margin-bottom: 15px;  
+}
+
+.gallery a:hover{
+    background-color: rgba(14, 12, 133, 0.637);
+    opacity: 0.7;
+    border-radius: 5%;
+    border-bottom: 1px;    
 }
    
 .gallery::after{
@@ -50,20 +71,11 @@ body {
     height: auto;
 }
 
-.column-one {
+.column-one, .column-two {
+    margin: 5px;
     width: 50%;
-    border: 3px solid red;
     display: grid;
     place-items: center;
     gap: 10px;
+    border: 5px solid rgb(35, 3, 109);
 }
-
-.column-two{
-    width: 50%;
-    border: 3px solid green;
-    display: grid;
-    place-items: center;
-    gap: 10px;
-}
-
-.column-one, .column-two {margin: 5px;}
