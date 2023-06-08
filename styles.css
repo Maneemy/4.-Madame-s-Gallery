@@ -24,12 +24,14 @@ body {
 }
 
 .gallery img{
-    width: 100%;
+    width: 300px;
     max-width: auto;
-    height: 350px;
+    height: 150px;
+    max-height: auto;
     object-fit:cover;
-    border-radius: 10px;
+    border-radius: 5px;
     gap: 16px;
+    padding: 5px;
 }
 
 .gallery {
@@ -54,12 +56,6 @@ body {
     display: grid;
     place-items: center;
     gap: 20px;
-    padding:0px 10px;
-}
-
-.images-one.{
-    gap:16px;
-    margin: auto;
 }
 
 .column-two{
