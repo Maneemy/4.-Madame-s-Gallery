@@ -67,6 +67,7 @@ body {
 .gallery {
     display: flex; 
     flex-direction: row; 
+    flex-wrap: nowrap;
     justify-content:center;
     align-items: center;
     width: 85vw;
@@ -78,8 +79,8 @@ body {
 }
 
 .gallery a:hover{
-    background-color:rgba(128, 128, 128, 0.712);
-    opacity: 0.7;
+    background-color:rgba(41, 100, 109, 0.712);
+    opacity: 0.8;
     border-radius: 5%;
     border-bottom: 1px; 
     padding-bottom: 0px;   
@@ -97,5 +98,7 @@ body {
     display: grid;
     place-items: center;
     gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
     /*border: 5px solid rgb(35, 3, 109);*/
 }
