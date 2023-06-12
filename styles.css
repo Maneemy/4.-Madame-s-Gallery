@@ -41,9 +41,10 @@ body {
     font-family:'Times New Roman', Times, serif;
     height: 100vh;
     font-size: 1em;    
-    background-image:url(/assets/background2.jpg);
+    background-color:lavender;
+    /*background-image:url(/assets/background2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;  */
 }
 
 .gallery img{
@@ -63,10 +64,10 @@ body {
     justify-content:center;
     align-items: center;
     width: 85vw;
-    background-color: rgba(128, 128, 128, 0.658);
+    background-color: rgba(190, 178, 178, 0.205);
     margin: auto;  
-    margin-top: 170px;
-    margin-bottom: 15px;  
+    margin-top: 135px;
+    margin-bottom: 5px;  
 }
 
 .gallery a:hover{
